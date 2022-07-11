@@ -1,0 +1,36 @@
+.rodape {
+    background-color: var(--cor-rodape);
+    color: var(--branco);
+    padding: 2rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creditos {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.rodape__link {
+    color: var(--cor-links);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.rodape__link:hover, .rodape__link:focus {
+    border-bottom: 1px solid var(--cor-links);
+    opacity: 85%;
+}
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 767px) {
+    .rodape {
+        text-align: center;
+    }
+
+    .creditos {
+        margin-top: 1.5rem;
+    }
+}

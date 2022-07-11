@@ -1,0 +1,72 @@
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre__titulo {
+    text-align: left;
+}
+
+.sobre__conteudo {
+    max-width: 750px;
+}
+
+.sobre__texto {
+    margin-bottom: 1rem;
+}
+
+.sobre__link {
+    color: var(--cor-links);
+    text-decoration: none;
+}
+
+.sobre__link:hover, .sobre__link:focus {
+    transition: 0.5s;
+    color: var(--azul-escuro);
+}
+
+.sobre__link--curriculo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-titulo);
+}
+
+.sobre__link--curriculo::after {
+    content: url("../img/arrow.png");
+    margin-left: 5px;
+}
+
+.sobre__link--curriculo:hover::after, .sobre__link--curriculo:focus::after {
+    transition: 0.5s;
+    filter: brightness(20%) saturate(80%);
+}
+
+@media screen 
+and (min-width: 320px) 
+and (max-width: 767px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre__titulo {
+        text-align: center;
+    }
+
+    .sobre__img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen 
+and (min-width: 767px) 
+and (max-width: 1100px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre__img {
+        width: 250px;
+        height: 250px;
+    }
+}
