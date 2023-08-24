@@ -13,7 +13,8 @@ Com Javascript: Fiz as interações e validações de formulário.
 Com GitHub e GitHub Pages: Coloquei em um diretório online para que possam ver caso necessário e criei a página web.
 
 ## Para acessar o projeto voce deve clicar no link abaixo:
-### [Portifolio](https://patricsm.github.io/portifolio/)
+### Página Web: [Portifolio](https://patricsm.github.io/portifolio/)
+### Diretório GitHub: [Diretório](https://github.com/PatricSM/portifolio)
 
 ## Algumas imagens do Projeto:
 ![Jogo-Forca](./img/jogo-forca.png)
