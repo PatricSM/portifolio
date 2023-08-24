@@ -12,7 +12,17 @@ Com CSS3 e Bootstrap: Fiz o design e responsividade da página.
 Com Javascript: Fiz as interações e validações de formulário.
 Com GitHub e GitHub Pages: Coloquei em um diretório online para que possam ver caso necessário e criei a página web.
 
- ## Para me encontrar:
+## Para acessar o projeto voce deve clicar no link abaixo:
+### [Portifolio](https://patricsm.github.io/portifolio/)
+
+## Algumas imagens do Projeto:
+![Jogo-Forca](./img/jogo-forca.png)
+![Decody](./img/codificador-decodificador.png)
+![Gamersclub](./img/gamersclub.png)
+
+
+## Para me encontrar:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patric-martins/)
 
 ### Email: patric.eu@gmail.com <a href="mailto:patric.eu@gmail.com">:envelope_with_arrow:</a>
+
